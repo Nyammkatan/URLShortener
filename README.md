@@ -43,6 +43,12 @@ However, the design is extensible and it would be easy to expand this with more 
 
 1. Install simple python environment and dependencies
 `python -m venv env`
+Activate the environment
+On Windows:
+`env\Scripts\activate`
+On macOS/Linux:
+`source env/bin/activate`
+Then install the dependencies
 `pip install -r requirements.txt`
 
 2. Run the server with commands:
